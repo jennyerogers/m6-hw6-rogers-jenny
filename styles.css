@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(./white-waves.webp);
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: sans-serif;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.box {
+    display: flex;
+}
+header > a {
+    margin-left: 8%;
+    font-size: 0px;
+}
+header > nav {
+    font-size: 20px;
+    margin-right: 22%;
+    padding: 10px;
+}
+main, nav {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+nav {
+    display: flex;
+}
+h1 {
+    padding: 10px;
+    font-size: 40px;
+    color: rgb(81, 70, 102);
+    border-bottom: solid black;
+    margin-bottom: 5px;
+}
+main p {
+    line-height: 160%;
+}
+nav > a {
+    font-size: 25px;
+    font-family: sans-serif;
+    color: rgb(81, 70, 102);
+}
+nav > :first-child {
+    margin-right: auto;
+}
+nav > :last-child {
+    margin-right: auto;
+}
+.two {
+    margin: 0 -12px 0 20px;
+}
+.three {
+    margin: 0 -12px 0 20px;
+}
+.four {
+    margin: 0 -12px 0 20px;
+}
+.one {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: -10px -13 px;
+}
+h1 {
+    padding: 10px;
+    font-size: 40px;
+    color: rgb(81, 70, 102);
+    margin-bottom: 5px;
+}
+main {
+    background-color: rgb(252, 250, 219);
+    max-width: 470px;
+    margin: 15px 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+header, footer {
+    background-color: rgb(208, 188, 245);
+    padding: 15px 0px;
+}
+img {
+    float: left;
+    padding-top: 5px;
+    margin: 0 auto;
+    margin-right: 30px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    box-shadow: 10px 10px 5px rgb(208, 188, 245);
+}
+section.Connect {
+    text-align: center;
+ 
+    margin-bottom: 5px;
+}
+article {
+    max-width: 700px;
+}
+aside {
+    text-align: center;
+    background-color: rgb(252, 250, 219);
+    max-width: 200x;
+    max-height: 90px;
+    margin: 15px 0 15px 15px;
+    padding: 15px;
+}
+main > aside {
+    background-color: rgb(252, 250, 219);
+}
+.connect {
+    border-bottom: solid black;
+    margin-bottom: 5px;
+}
+.links {
+    margin: 0 4px;
+}
+a.two, .three, .four {
+    border-right: solid rgb(140, 119, 152) 3px;
+    padding-right: 10px;
+}
+main::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+footer {
+    text-align: center;
+    margin-top: auto;
+    content: "";
+    clear: both;
+    display: block;
+}
